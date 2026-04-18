@@ -52,13 +52,16 @@
 
 ```
 CentralCache.cpp # 中心缓存实现
-CentralCache.hCommon.h # 通用定义
+CentralCache.h
+Common.h # 通用定义
 ConcurrentAlloc.h # 对外分配接口
 ObjectPool.h # 定长内存池
 PageCache.cpp # 页缓存实现
-PageCache.hPageMap.cpp # 页映射
+PageCache.h
+PageMap.cpp # 页映射
 ThreadCache.cpp # 线程缓存实现
-ThreadCache.htext.cpp # 测试与性能对比
+ThreadCache.h
+text.cpp # 测试与性能对比
 tcmalloc.sln/.vcxproj VS 项目文件
 ```
 
